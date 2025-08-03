@@ -2,37 +2,144 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#main-img {
+  height: 203px;
+}
+
+.card-body {
+  height: 268.771px;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  border-radius: 8%;
+}
+
+.dropdown-item {
+  border-radius: 9%;
+}
+
+.dropdown-menu {
+  padding: 0px;
+}
+
+.footer-1 {
+  height: 60px;
+  padding: 15px 0px 15px 0px;
+  background-color: #37475a;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.main-footer {
+  background-color: #232f3e;
+  color: white;
+  padding: 40px 20px 30px 20px;
+}
+
+.main-content {
+  display: flex;
+  font-size: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.random-cont {
+  height: 10px;
+  width: 10px;
+  padding: 0px 5px;
+}
+@media (min-width: 768px) {
+  .random-cont {
+    height: 150px;
+    width: 250px;
+    padding: 0px 30px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.item-link-1,
+#about {
+  text-decoration: none;
+}
+
+.container-3 {
+  height: 65px;
+  background-color: #232f3e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.container-3 {
+  height: auto;
+  padding: 10px 20px;
+}
+@media (min-width: 768px) {
+  .container-3 {
+    padding: 10px 100px;
+  }
+}
+
+.last-footer {
+  background-color: #131a22;
+  color: #dddddd;
+  padding: 30px 0px 30px 0px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+#dropdown {
+  background-color: #232f3e;
+  color: #dddddd;
+  --bs-btn-border-width: 0px;
+  border-width: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.btn-group-wrapper {
+  padding: 6px 8px;
+  display: inline-block;
+  border: calc(var(--bs-border-width) * 0.5) solid #b4b4b4;
+}
+
+#items {
+  padding-left: 11px;
+  margin-bottom: 4px;
+}
+
+#read-more {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
+.item-link-1 {
+  color: #b4b4b4;
+}
+
+.cont-1,
+.cont-2 {
+  min-width: 50px;
+}
+@media (min-width: 768px) {
+  .cont-1,
+  .cont-2 {
+    min-width: 180px;
   }
 }

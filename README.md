@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# 📰 News Station - React News App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### A responsive React web app that fetches real-time news headlines using NewsAPI.org
 
-## Available Scripts
+🔗 **Live Demo:** [Click here to view the live site](https://your-netlify-link.netlify.app)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🌍 Browse top headlines by **country** and **category**
+- 🔁 Seamless **Infinite Scroll** to load more news
+- 🌗 Light & Dark **Mode Toggle**
+- ⏳ Loading indicator with **progress bar**
+- 🧠 Graceful fallback UI for unavailable regions
+- 🔐 API Key auto-switching to handle quota limits
+- 📦 Powered by [NewsAPI.org](https://newsapi.org)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend:** React JS
+- **Routing:** React Router
+- **Infinite Scroll:** `react-infinite-scroll-component`
+- **Environment Config:** `.env` for API keys
+- **Styling:** Bootstrap & Custom CSS
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔑 API Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To use this app, you need an API key from [NewsAPI.org](https://newsapi.org).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Create a `.env` file in the project root.
+2. Add your API keys like this:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```env
+REACT_APP_NEWS_API_1=your_api_key_1
+REACT_APP_NEWS_API_2=your_api_key_2
+REACT_APP_NEWS_API_3=your_api_key_3
+REACT_APP_NEWS_API_4=your_api_key_4
