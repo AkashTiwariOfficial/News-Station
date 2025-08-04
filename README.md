@@ -62,6 +62,8 @@ REACT_APP_NEWS_API_4=your_api_key_4
 
  The app will auto-switch between these API keys if one gets exhausted.
 
+```
+
 ---
 
 🚀 Getting Started (Local)
@@ -80,9 +82,18 @@ npm start
 
 ---
 
-## 
+## 🚫 Hosting Limitation Notice
 
-Due to NewsAPI’s free plan restriction, the app cannot be hosted publicly without a paid (developer) plan. Netlify and other hosting platforms will fail the build due to API access denial at runtime.
+D❗ Important: This app cannot be deployed publicly (e.g., via Netlify or Vercel) using free-tier API keys from NewsAPI.
+
+NewsAPI’s free plan restricts usage to localhost only.
+
+You need a Developer or paid plan to allow external API calls on hosted domains.
+
+This is why live deployment is not available unless you upgrade your API plan.
+
+---
+
 
 To test or use this project:
 
@@ -91,6 +102,8 @@ Clone locally
 Add your API keys
 
 Run in development mode (npm start)
+
+---
 
 🔗 Live Demo (Localhost Only)
 Since API hosting requires a paid plan, this app runs only on local development environments. A demo cannot be hosted on Netlify unless upgraded.
